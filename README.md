@@ -3,15 +3,15 @@
 Sub stock_market()
 
   ' Set an initial variable for holding the ticker name
-  Dim ticker_Name As String
+  	Dim ticker_Name As String
 
   ' Set an initial variable for holding the total volume per ticker
-  Dim Volume_Total As Double
-  Volume_Total = 0
+ 	  Dim Volume_Total As Double
+  	Volume_Total = 0
 
   ' Keep track of the location for each stock in the summary table
-  Dim Summary_Table_Row As Integer
-  Summary_Table_Row = 2
+  	Dim Summary_Table_Row As Integer
+ 	  Summary_Table_Row = 2
   
   ' Create columns and cell names
   Cells(1, 10).Value = "Ticker"
